@@ -1,8 +1,10 @@
+import Chessboard from "./components/Chessboard";
+
 function App() {
   return (
-    <>
-      <div className="text-amber-300">hello</div>
-    </>
+    <main className="w-full h-screen grid place-content-center ">
+      <Chessboard />
+    </main>
   );
 }
 
